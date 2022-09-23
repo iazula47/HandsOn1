@@ -62,3 +62,17 @@ echo "Divide by 3. Value is now " .($variable/=3).".\r\n";
 echo "Increment value by one. Value is now " . ($variable+=1).".\r\n";
 echo "Decrement value by one. Value is now " . ($variable-=1).".\r\n";
 ?>
+
+
+//Exercise 4 by Eric John Agapen
+
+<?php
+$name="Harry";
+$age = 28;
+var_dump($name);
+print_r($name);
+echo "\n";
+var_dump($age);
+$name=NULL;
+var_dump($name);
+?>
